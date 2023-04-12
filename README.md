@@ -1,2 +1,3 @@
 # pipelined-framework
-Take care of your business...
+
+>>> Just another useless repo
