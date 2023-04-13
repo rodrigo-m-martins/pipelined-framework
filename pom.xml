@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>com.bsbc</groupId>
+  <artifactId>pipelined-test</artifactId>
+  <version>1</version>
+</project>
