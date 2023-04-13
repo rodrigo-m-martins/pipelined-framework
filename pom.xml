@@ -4,4 +4,6 @@
   <groupId>com.bsbc</groupId>
   <artifactId>pipelined-test</artifactId>
   <version>1</version>
+  
+  <packaging>jar</packaging>
 </project>
