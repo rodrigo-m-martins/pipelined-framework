@@ -5,7 +5,7 @@ pipeline {
         stage('Stage #01 - Build Image') {
             steps {
                 script {
-                    dockerapp = docker.build('projectFolder/projectName', '-f ./path-to/DockerFile ./src')
+                    dockerapp = docker.build('pipelined-framework/pipelined-framework', '-f ./src/main/resources/container/DockerFile ./src/main/resources/image')
                 }
             // echo 'Iniciando Stage01 no pipeline'
             }
