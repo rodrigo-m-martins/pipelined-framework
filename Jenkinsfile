@@ -5,7 +5,7 @@ pipeline {
         stage('Stage #01 - Build Image') {
             steps {
                 script {
-                    dockerapp = docker.build('jenkins/pipelined-framework', '-f ./src/main/resources/container/DockerFile ./src/main/resources/image')
+                    dockerapp = docker.build('jenkins/pipelined-framework', '-f ./src/main/resources/container/DockerFile ./src/main/resources/image/')
                 }
             // echo 'Iniciando Stage01 no pipeline'
             }
